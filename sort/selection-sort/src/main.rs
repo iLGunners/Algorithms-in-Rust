@@ -1,4 +1,4 @@
-fn selection_sort(array: &mut [i32]) {
+fn selection_sort(array: &mut [i8]) {
     for i in 0..array.len() {
         let min_index = (i..array.len()).min_by_key(|x| array[*x]).unwrap();
         array.swap(min_index, i)
