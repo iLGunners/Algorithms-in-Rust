@@ -1,4 +1,4 @@
-use std::thread;
+// use std::thread;
 
 fn ackermann(m: u64, n: u64) -> u64 {
     match(m, n) {
@@ -13,6 +13,10 @@ fn main() {
 
     for m in 0..5 {
         for n in 0..(16-m) {
+            // let handle = thread::spawn(move || {
+            //     println!("ackermann({}, {}) = {}", m, n, ackermann(m, n))
+            // });
+            // handle.join();
             println!("ackermann({}, {}) = {}", m, n, ackermann(m, n));
         }
     }
