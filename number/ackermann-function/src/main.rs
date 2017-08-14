@@ -1,6 +1,6 @@
 // use std::thread;
 
-fn ackermann(m: u64, n: u64) -> u64 {
+fn ackermann(m: u32, n: u32) -> u32 {
     match(m, n) {
         (0, n) => n+1,
         (m, 0) => ackermann(m-1, 1),
