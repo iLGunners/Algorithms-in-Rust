@@ -1,2 +1,2 @@
 # Algorithms-in-Rust
-selection of algorithms done in Rust language.
+Selection of algorithms done in Rust language.
